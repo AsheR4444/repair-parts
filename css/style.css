@@ -137,14 +137,16 @@ body {
     color: #5a5a5a;
     line-height: 46px;
     text-transform: uppercase; }
-  .header-contact__number {
-    font-size: 28px;
-    font-weight: 700;
-    color: #fff;
-    text-decoration: none;
-    display: block; }
-  .header-contact__call {
-    color: #d91233; }
+  .header-contact {
+    text-align: right; }
+    .header-contact__number {
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      display: block; }
+    .header-contact__call {
+      color: #d91233; }
   .header-content {
     display: flex;
     align-items: center;
@@ -330,3 +332,6 @@ body {
   @media (max-width: 768px) {
     .contact-box {
       display: none; } }
+
+.footer .header-contact__number {
+  color: #000; }
