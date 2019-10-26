@@ -91,7 +91,7 @@ body {
     .form__button {
       font-size: 15px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   .form-row {
     flex-direction: column; }
   .form-group {
@@ -298,3 +298,35 @@ body {
   @media (max-width: 768px) {
     .consult-block {
       padding: 30px; } }
+
+.map {
+  position: relative; }
+
+.contact-box {
+  position: absolute;
+  top: 50px;
+  left: 60%;
+  font-size: 20px;
+  color: #fff;
+  padding: 70px;
+  background: #d91233;
+  font-weight: 700;
+  text-align: center; }
+  .contact-box a {
+    color: #fff; }
+  .contact-box__title {
+    font-size: 24px;
+    margin-bottom: 30px; }
+  .contact-box__adress {
+    font-weight: 400;
+    margin-bottom: 20px; }
+  .contact-box__phone {
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none; }
+  .contact-box__mail {
+    font-weight: 400;
+    text-decoration: underline; }
+  @media (max-width: 768px) {
+    .contact-box {
+      display: none; } }

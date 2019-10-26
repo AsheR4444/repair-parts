@@ -1,0 +1,37 @@
+.map{
+    position: relative;
+}
+.contact-box{
+    position: absolute;
+    top: 50px;
+    left: 60%;
+    font-size: 20px;
+    color: #fff;
+    padding: 70px;
+    background: #d91233;
+    font-weight: 700;
+    text-align: center;
+    a{
+        color: #fff;
+    }
+    &__title{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    &__adress{
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    &__phone{
+        margin-bottom: 20px;
+        display: block;
+        text-decoration: none;
+    }
+    &__mail{
+        font-weight: 400;
+        text-decoration: underline;
+    }
+    @media (max-width:768px){
+        display: none;
+    }
+}
