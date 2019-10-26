@@ -1,0 +1,41 @@
+.review{
+    &-block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &__item{
+            display: flex;
+            margin-bottom: 55px;
+            flex-basis: 50%;
+        }
+    }
+    &-img{
+        margin-right: 20px;
+    }
+    &-info{
+        font-weight: 700;
+        &__name{
+            color: #757575;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        &__title{
+            color: #d91233;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        &__text{
+            max-width: 330px;
+            color: #2b2b2b;
+            font-size: 13px;
+        }
+    }
+    @media (max-width:768px) {
+        &-block{
+            &__item{
+                flex-basis: 100%;
+                justify-content: center;
+            }
+        }
+    }
+}

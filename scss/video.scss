@@ -1,0 +1,11 @@
+.video{
+    &-block{
+        border: 5px solid #f2f2f2;
+        padding: 10px;
+        height: 430px;
+        div{
+            background: #3b3b3b;
+            width: 100%; height: 100%;
+        }
+    }
+}

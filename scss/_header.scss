@@ -95,23 +95,7 @@
             }
         }
         &__button{
-            font-size: 18px;
-            font-weight: 700;
-            border-radius: 40px;
-            background: none;
-            padding: 18px 56px;
-            color: #fff;
-            border: 2px solid #d91233;
-            max-width: 240px;
-            &:hover{
-                border: 2px solid none;
-                background-color: #d91233;
-            }
-            @media (max-width:768px){
-                &__button{
-                    font-size: 15px;
-                }
-            }
+            
         }
         &__text{
             margin: 25px auto;
