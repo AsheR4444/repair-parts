@@ -1,0 +1,19 @@
+.brands{
+    &-block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        &__img{
+            flex-basis: 20%;
+            margin-bottom: 20px;
+        }
+    }
+    @media (max-width:768px) {
+        &-block{
+            &__img{
+                flex-basis: 33%;
+            }
+        }
+    }
+}

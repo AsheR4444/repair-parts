@@ -16,6 +16,12 @@ body {
 .section {
   padding: 100px 0; }
 
+.section__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 60px; }
+
 @font-face {
   font-family: 'Lato';
   src: url("../fonts/Lato-Regular.woff") format("woff");
@@ -142,3 +148,39 @@ body {
     .header-buttons__item {
       flex-basis: 100%;
       margin-left: 0; } }
+
+.features {
+  padding: 100px 0 20px 0; }
+  .features-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .features-block__item {
+      text-align: center;
+      flex-basis: 33%;
+      margin-bottom: 80px; }
+    .features-block__img {
+      margin-bottom: 30px; }
+    .features-block__title {
+      font-weight: 700;
+      margin-bottom: 20px; }
+    .features-block__text {
+      font-size: 14px;
+      max-width: 240px;
+      margin: auto; }
+  @media (max-width: 768px) {
+    .features-block__item {
+      flex-basis: 100%; } }
+
+.brands-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; }
+  .brands-block__img {
+    flex-basis: 20%;
+    margin-bottom: 20px; }
+
+@media (max-width: 768px) {
+  .brands-block__img {
+    flex-basis: 33%; } }
