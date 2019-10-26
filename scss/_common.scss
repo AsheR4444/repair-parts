@@ -1,0 +1,16 @@
+// == Common ==
+.container{
+    max-width: 970px;
+    margin: 0 auto;
+    @media (max-width:991px) {
+        max-width: 750px;
+    }
+    @media (max-width:768px){
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+.section{
+    padding: 100px 0;
+}
+// == /Common ==
